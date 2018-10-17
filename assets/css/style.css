@@ -1,5 +1,23 @@
 
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.headerLink {
+    float: right;
+}
+
+#nameHeading {
+    float:left;
+    font-weight: bolder;
+}
+
 #aboutImage {
     width: 200px;
     height: 250px;
+    float: left;
 }
+
