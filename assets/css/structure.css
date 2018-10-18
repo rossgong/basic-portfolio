@@ -1,0 +1,15 @@
+#heading {
+    width: 960px;
+    margin: 10px auto;
+    background-color: white;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.headerLink {
+    float: right;
+}
