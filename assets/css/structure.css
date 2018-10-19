@@ -1,3 +1,12 @@
+#nameHeading {
+    float: left;
+    font-weight: bolder;
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0 0;
+    padding: 10px 10px;
+}
+
 body {
     background-color: #eee;
     margin: 0;
@@ -6,15 +15,7 @@ body {
 
 header {
     background-color: white;
-}
-
-#nameHeading {
-    float: left;
-    font-weight: bolder;
-    background-color: #4aaaa5;
-    color: white;
-    margin: 0 0;
-    padding: 10 10;
+    margin: 0;
 }
 
 #heading {
@@ -25,6 +26,7 @@ header {
 
 .headerLink {
     float: right;
+    margin: auto 10px;
 }
 
 .clearfix::after {
@@ -35,7 +37,15 @@ header {
 
 section {
     width: 960px;
-    margin: 10px auto;
     padding: 10px 10px;
+    margin: 10px auto;
     background-color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: #333;
+    color: white;
 }
