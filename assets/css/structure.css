@@ -1,10 +1,18 @@
-#nameHeading {
+#namePanel {
     float: left;
-    font-weight: bolder;
     background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: white;
-    margin: 0 0;
-    padding: 10px 10px;
+    margin: 0;
+    height: inherit;
+    padding: 0 30px;
+}
+
+#linkPanel {
+    float: right;
+    height: inherit;
+    margin: 0;
+    line-height: 75px;
 }
 
 body {
@@ -16,17 +24,22 @@ body {
 header {
     background-color: white;
     margin: 0;
+    height: 75px;
 }
 
 #heading {
     width: 960px;
     margin: 0 auto;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: inherit;
 }
 
 .headerLink {
-    float: right;
-    margin: auto 10px;
+    
+    padding: 0 10px;
+    color: #666;
+    border-right: solid 1px #eee;
+    color: #666;
+    text-decoration: none;
 }
 
 .clearfix::after {
@@ -36,10 +49,12 @@ header {
 }
 
 section {
-    width: 960px;
-    padding: 10px 10px;
+    width: 900px;
+    padding: 30px 30px;
     margin: 10px auto;
     background-color: white;
+    color: #666;
+    line-height: 1.5;
 }
 
 footer {
@@ -47,5 +62,17 @@ footer {
     bottom: 0;
     height: 50px;
     background-color: #333;
+    width: 100%;
+}
+
+#copyright {
+    text-align: center;
     color: white;
 }
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 0;
+}
+

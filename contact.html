@@ -4,17 +4,21 @@
         <meta charset="UTF-8">
         <title>Ross Gongaware's Portfolio</title>
         <link rel="stylesheet" href="assets/css/structure.css">
-        <link rel="stylesheet" href="assets/css/index.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
 
     </head>
     <body>
         <header class="clearfix">
             <div id="heading">
-                <h1 id="nameHeading">Ross Gongaware</h1>
+                <div id="namePanel">
+                    <h1>Ross Gongaware</h1>
+                </div>
 
-                <a href="contact.html" class="headerLink">Contact</a>
-                <a href="portfolio.html" class="headerLink">Portfolio</a>
-                <a href="index.html" class="headerLink">About</a>
+                <div id="linkPanel">
+                    <a href="index.html" class="headerLink">About</a>
+                    <a href="contact.html" class="headerLink">Contact</a>
+                    <a href="portfolio.html" class="headerLink">Portfolio</a>
+                </div>
             </div>
         </header>
 
@@ -26,13 +30,13 @@
             
             <form>
                 Name: <br>
-                <input type="text" name="name"> <br>
+                <input type="text" name="name" class="textField"> <br>
                 Email: <br>
-                <input type="email" name="email"> <br>
+                <input type="email" name="email" class="textField"> <br>
                 Comment: <br>
-                <textarea></textarea> <br>
+                <textarea name="comment" class="textField" rows="8"></textarea> <br>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="button">
 
             </form>
 
